@@ -7,10 +7,10 @@ class Ninja{
     }
     
     sayName(){
-        console.log("This Ninja's name is ${this.name}");
+        console.log(`This Ninja's name is ${this.name}`);
     }
     showStats(){
-        console.log("{this.name}, {this.strength}, {this.speed}, {this.health}")
+        console.log(`${this.name}, ${this.strength}, ${this.speed}, ${this.health}`)
     }
 
     drinkSake(){
@@ -22,3 +22,5 @@ const Bumi = new Ninja("Bumi", 5);
 console.log(Bumi)
 Bumi.drinkSake();
 console.log(Bumi)
+Bumi.sayName();
+Bumi.showStats();
