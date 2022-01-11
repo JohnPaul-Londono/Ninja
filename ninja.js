@@ -10,7 +10,7 @@ class Ninja{
         console.log(`This Ninja's name is ${this.name}`);
     }
     showStats(){
-        console.log(`${this.name}, ${this.strength}, ${this.speed}, ${this.health}`)
+        console.log(`${this.name}, ${this.health}, ${this.speed}, ${this.strength}`)
     }
 
     drinkSake(){
@@ -24,3 +24,5 @@ Bumi.drinkSake();
 console.log(Bumi)
 Bumi.sayName();
 Bumi.showStats();
+
+module.exports = Ninja;
